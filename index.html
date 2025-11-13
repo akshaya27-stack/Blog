@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Akshaya N — Self Introduction</title>
+  <style>
+    :root{ --bg:#f7fbfc; --card:#ffffff; --accent:#6b46c1; --muted:#555; }
+    *{box-sizing:border-box}
+    body{font-family:system-ui,-apple-system,Segoe UI,Roboto,'Helvetica Neue',Arial; margin:0; background:var(--bg); color:#222}
+    .wrap{min-height:100vh; display:flex; align-items:center; justify-content:center; padding:32px}
+    .card{background:var(--card); border-radius:12px; box-shadow:0 6px 30px rgba(30,30,60,0.08); max-width:720px; width:100%; padding:28px}
+    header{display:flex; gap:16px; align-items:center}
+    .avatar{width:72px; height:72px; border-radius:12px; background:linear-gradient(135deg,var(--accent),#b794f4); display:flex; align-items:center; justify-content:center; color:white; font-weight:700; font-size:22px}
+    h1{margin:0; font-size:20px}
+    p.lead{margin:12px 0 18px; color:var(--muted)}
+    ul.meta{margin:0; padding:0; list-style:none; display:flex; gap:10px; flex-wrap:wrap}
+    ul.meta li{background:#f1f5f9; padding:6px 10px; border-radius:8px; font-size:14px; color:#333}
+    .content p{margin:10px 0; line-height:1.6}
+    footer{margin-top:18px; color:#666; font-size:13px}
+    @media (max-width:480px){.card{padding:18px}.avatar{width:56px;height:56px}}
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <article class="card" role="article" aria-labelledby="intro-title">
+      <header>
+        <div class="avatar" aria-hidden="true">AN</div>
+        <div>
+          <h1 id="intro-title">Hi, I’m <strong>Akshaya N</strong></h1>
+          <p class="lead">A friendly and motivated person who loves learning new things.</p>
+          <ul class="meta">
+            <li>Passionate about Technology</li>
+            <li>Fashion &amp; Art</li>
+            <li>Designer &amp; Reader</li>
+          </ul>
+        </div>
+      </header>
+
+      <section class="content" aria-label="About me">
+        <p>I enjoy exploring creative ideas and improving my skills every day. I’m passionate about technology, fashion, and art.</p>
+        <p>In my free time, I like designing, reading, and spending time with my loved ones. I’m always looking for new opportunities to learn and grow.</p>
+        <p>My goal is to become successful in my career and make a positive impact on others.</p>
+      </section>
+
+      <footer>
+        <small>Made with care • Feel free to edit this content for school, interviews, or profiles.</small>
+      </footer>
+    </article>
+  </div>
+</body>
+</html>
