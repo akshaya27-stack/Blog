@@ -1,0 +1,92 @@
+!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Akshaya — Personality</title>
+  <style>
+    :root{
+      --bg:#f7f9fb;
+      --card:#ffffff;
+      --accent:#6c5ce7;
+      --text:#222;
+      --muted:#666;
+      --radius:14px;
+      --maxw:720px;
+      font-family: Inter, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial;
+    }
+    body{
+      margin:0;
+      min-height:100vh;
+      display:flex;
+      align-items:center;
+      justify-content:center;
+      background:linear-gradient(180deg,var(--bg),#eef3fb);
+      color:var(--text);
+      padding:28px;
+      -webkit-font-smoothing:antialiased;
+      -moz-osx-font-smoothing:grayscale;
+    }
+    .card{
+      width:100%;
+      max-width:var(--maxw);
+      background:var(--card);
+      border-radius:var(--radius);
+      box-shadow:0 10px 30px rgba(40,44,63,0.08);
+      padding:28px;
+      box-sizing:border-box;
+    }
+    .header{
+      display:flex;
+      gap:12px;
+      align-items:center;
+      margin-bottom:10px;
+    }
+    .dot{
+      width:12px;height:12px;border-radius:50%;
+      background:var(--accent);box-shadow:0 6px 18px rgba(108,92,231,0.2);
+    }
+    h1{
+      margin:0;font-size:1.25rem;
+      letter-spacing:0.2px;
+    }
+    .subtitle{
+      margin:4px 0 18px 0;
+      color:var(--muted);
+      font-size:0.95rem;
+    }
+    .content p{
+      margin:0 0 12px 0;
+      line-height:1.55;
+      font-size:1rem;
+    }
+    .content p strong{ color:var(--accent); }
+    @media (max-width:520px){
+      .card{ padding:18px; }
+      h1{ font-size:1.1rem; }
+    }
+  </style>
+</head>
+<body>
+  <article class="card" aria-label="Akshaya's personality">
+    <div class="header">
+      <span class="dot" aria-hidden="true"></span>
+      <h1>Hello, my name is Akshaya.</h1>
+    </div>
+    <div class="subtitle">A short personal description</div>
+
+    <div class="content">
+      <p>I am an ambivert person.</p>
+      <p>In some places, I’m very active, but in college I wasn’t like that.</p>
+      <p>In school I used to get attached to people quickly, but in college I couldn’t.</p>
+      <p>When I talk, I talk really well.</p>
+      <p>I sing well too.</p>
+      <p>I can dance a little.</p>
+      <p>I get angry very easily, and I have a bit of ego.</p>
+      <p>At night I end up crying sometimes.</p>
+      <p>If I trust someone, I trust them fully.</p>
+      <p><strong>That is my personality.</strong></p>
+    </div>
+  </article>
+</body>
+</html>
